@@ -1,0 +1,126 @@
+html{
+    font-size: 110%;
+   
+}
+body{
+    margin:0;
+    padding:0;
+    font-family:cursive;
+    color: #394c39;
+    line-height: 1.5;
+    overflow-x:hidden;
+    
+    /* background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+    /* background-repeat: no-repeat; */
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgb(233, 217, 236) 100%);
+   
+    
+
+}
+
+.header-content nav{
+    padding: 5px;
+ /* background-color: beige; */
+ background: rgb(238,174,210);
+ background: radial-gradient(circle, rgba(238,174,210,1) 45%, rgba(180,104,221,1) 97%);
+
+}
+
+
+
+
+
+
+.header-content nav ul{
+    
+    list-style: none;
+    display: flexbox;
+    margin-left: 570px;
+    color: #394c39;
+    
+  
+}
+.header-content nav ul li a{
+    color:  #394c39;
+    text-decoration: none;
+    line-height: 1.2;
+}
+.heading-content img{
+    display: block;
+    margin:auto;
+    padding: 30px 100px;
+   
+}
+.heading-content p{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+   color: #394c39;
+}
+
+     
+#about {
+       
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 40px;
+        border-radius: 0.5%;
+        text-align: center;
+        font-size: 2em;
+     }
+
+.profile-photo{
+   max-width: 250px;
+}
+.intro{
+    font-size: 0.5em;
+}
+#portfolio{
+    font-size: 2em;
+text-align: center;
+}
+/* .maindiv{ */
+/* 
+    align-items: center;
+    float: left;
+} 
+.project{
+    float: left;
+    padding: 5px;
+} */
+.project1{
+
+    max-width: 50%;
+    padding-bottom: 20px;
+  
+}
+.project2{
+
+    max-width: 50%;
+  
+}
+#contact{
+    text-align: center;
+    font-size: 2em;
+}
+.msg{
+    font-size: 0.5em;
+}
+button:hover{
+    padding: 20px 0px;
+    font-family: cursive;
+    /* text-transform: capitalize; */
+    transition: background-color 0.2s ease-in-out;
+     background-color: #dcafc2; 
+     font-size: 1em;
+   
+    
+    
+    
+}
+footer{
+    text-align: center;
+}
